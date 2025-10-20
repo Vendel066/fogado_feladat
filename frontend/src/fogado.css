@@ -1,0 +1,98 @@
+body{
+  color: #293647;
+}
+
+.bg-fej {
+  background-image: url('top.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+}
+
+.bg-fej h1{
+  color: black;
+  font-size: 250%;
+  text-transform: uppercase;
+  text-decoration: underline overline;
+  font-weight: bold;
+}
+.bg-fej h3{
+  color: black;
+  text-transform: uppercase;
+  text-decoration: underline overline;
+  font-weight: bold;
+}
+
+.container{
+  margin-bottom: 25px;
+}
+
+.bg-torzs {
+  align-content: center;
+  background-color: #C5C599;
+}
+
+h3{
+  margin: 25px 0px;
+}
+
+a {
+  font-style: italic;
+  font-weight: bold;
+  color: darkblue;
+}
+
+#szel, #mag{
+  margin: 0px auto 15px;
+}
+
+#kalkGomb {
+  margin: 20px auto;
+}
+
+#valasz{
+  visibility:hidden;
+}
+
+/* A logo.png kép átlátszóságának beállítása */
+.logo {
+  opacity: 0.8; /* 80%-os átlátszóság */
+}
+
+/* Táblázatok stílusának kialakítása */
+.table {
+  width: 100%;
+  margin-bottom: 1rem;
+  color: #212529;
+  border-collapse: collapse;
+}
+
+.table th,
+.table td {
+  padding: 0.75rem;
+  vertical-align: top;
+  border-top: 1px solid #dee2e6;
+}
+
+.table thead th {
+  vertical-align: bottom;
+  border-bottom: 2px solid #dee2e6;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+.table-bordered {
+  border: 1px solid #dee2e6;
+}
+
+.table-bordered th,
+.table-bordered td {
+  border: 1px solid #dee2e6;
+}
+
+.table-bordered thead th,
+.table-bordered thead td {
+  border-bottom-width: 2px;
+}
